@@ -1,0 +1,49 @@
+.nav-tabs{
+    border-bottom: none;
+}
+.nav-tabs .nav-link.active{
+    background-color:#e42956 ;
+    color: white;
+}
+.nav-tabs .nav-link{
+    padding: 0 24px;
+    cursor: pointer;
+    box-sizing: border-box;
+    opacity: .6;
+    min-width: 160px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    position: relative;
+    color: #fff;
+    opacity: 1!important;
+    z-index: 999;
+    font-size: 16px;
+    font-weight: 400;
+    height: 31px;
+    font-family: Poppins,sans-serif!important;
+    border-radius: 0 25px 25px 0;
+    border: 1px solid rgba(255,255,255,.4);
+}
+
+.custom-button-tab .nav-tabs .nav-link.active{
+    background-color:#e42956 ;
+    color: white;
+    border: 1px solid rgba(255,255,255,.4);
+}
+
+.custom-button-tab .nav-tabs .nav-link:hover, 
+.custom-button-tab .nav-tabs .nav-link:focus{
+    border: 1px solid rgba(255,255,255,.4);
+}
+
+#home-tab{
+    border-radius: 25px 0px 0px 25px;
+    border-right:none;
+}
+
+#profile-tab{
+    border-left:none;
+}

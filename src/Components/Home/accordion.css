@@ -1,0 +1,86 @@
+
+.accordion-item {
+  background-color: transparent;
+  border: none;
+}
+
+.accordion-item .accordion-button{
+  font-weight: bold;
+  padding: 12px 3px;
+  text-align: left;
+  height: 100%!important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: inherit;
+  transition: height 225ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: Roboto,Helvetica Neue,sans-serif;
+  font-size: 20px;
+  border-top: 1px solid rgba(135,135,135,.31);
+  border-radius: 0!important;
+  border-style: dashed;
+  font-family: Poppins,sans-serif!important;
+  background: transparent;
+  color: white;
+  box-shadow: none;
+}
+
+.accordion-button::after{
+  filter: invert(100%);
+}
+
+.accordion-button:focus{
+  border-color:transparent;
+  box-shadow: none;
+}
+
+.accordion-body{
+  text-align: left;
+  font-size: 18px;
+  font-weight: 400;
+  color: #b7b7b7;
+  line-height: 30px;
+  padding: 11px 3px 0;
+  font-family: Poppins,sans-serif!important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  transform: rotate(-180deg);
+  filter: grayscale(1);
+}
+
+.back-top{
+    color: #b7b7b759;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    font-family: Poppins,sans-serif!important;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+button.accordion-button{
+  background: transparent;
+  color: #fff;
+  border-top: 1px solid rgba(135,135,135,.31);
+  border-radius: 0!important;
+  border-style: dashed;
+}
+
+.accordion-item{
+  border-top: 1px dashed rgba(135,135,135,.31);
+}
+
+.accordion-item:first-child button.accordion-button{
+  border-top:none !important;
+}
+
+button.accordion-button.collapsed{
+  border-top: 1px dashed rgba(135,135,135,.31);
+}

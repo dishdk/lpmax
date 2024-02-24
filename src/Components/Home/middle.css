@@ -1,0 +1,219 @@
+.middle-section{
+    width: 100%;
+    text-align: center;
+    padding-top: 44px;
+    display: block;
+}
+/* .middle-section::before{
+        background: linear-gradient(90deg,#c10049 -1.31%,#fe3739 100.94%,rgba(208,196,0,0) 68.87%,rgba(13,81,174,0) 100%);
+        opacity: .5;
+    
+} */
+.middle-section h2{
+    font-size: 30px;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    font-family: Poppins,sans-
+}
+
+.track{
+    max-width: 890px;
+    width: 100%;
+    margin: 50px auto 90px;
+    position: relative;
+    display: flex;
+}
+.track .icon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    border-radius: 100%;
+    background: #333;
+}
+.track .step{
+    flex-grow: 1;
+    margin-top: -18px;
+    position: relative;
+}
+
+.middle-section .track .step.active .icon{
+    color: white;
+}
+.middle-section .step.active.day1 .icon{
+
+background: linear-gradient(90deg,#e42956 0%,#fd3438 125%); 
+    
+}
+.middle-section .step.active.day2 .icon{
+    background: linear-gradient(90deg,#fd313a 0%,#ff9800 100%);
+}
+
+    
+.day1{
+    width: 33.3%;
+}
+.middle-section .step.active.day3 .icon{
+    background: linear-gradient(90deg,#d1c400 -50%,#2447b7 100%);
+    color: #fff;
+}
+.day2{
+    width: 33.3%;
+}
+.day3{
+    width: 33.3%;
+}
+
+/* .middle-section .step .active .day1::before{
+    
+    background-color: linear-gradient(90deg,#c10049 -1.31%,#fe3739 100.94%,rgba(208,196,0,0) 68.87%,rgba(13,81,174,0) 100%);
+    opacity: .5;
+
+} */
+
+.track .step::before {
+ 
+    height: 2px;
+    position: absolute;
+    content: "";
+    width: 100%;
+    top: 15px;
+   
+}
+.middle-section .step.active.day1::before{
+    background: linear-gradient(90deg,#c10049 -1.31%,#fe3739 100.94%,rgba(208,196,0,0) 68.87%,rgba(13,81,174,0) 100%);
+    opacity: .5;
+}
+.middle-section .step.active.day2::before{
+    background: linear-gradient(90deg,rgba(208,196,0,.5019607843) 68.87%,rgba(13,81,174,.6588235294) 100%);
+    opacity: .5;
+}
+
+/* .track .step.active .day{
+    font-weight: 400;
+    color: #ffffffb3;
+    font-size: 16px;
+} */
+.middle-section .track .step.active .text {
+    font-weight: 400;
+    color: #ffffffb3;
+    font-size: 16px;
+    
+}
+.middle-section .track .text{
+    display: block;
+    margin-top: 0;
+    color: #ffffffb3;
+    font-size: 20px;
+    font-weight: 700;
+}
+.middle-section .track .step.active .text.heading{
+    color: #f6efef;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 23px;
+    font-family: Poppins,sans-serif!important;
+}
+.middle-section .track .icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    border-radius: 100%;
+    background: #333;
+}
+
+.need-help{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.need-help-text h4{
+    color: #fff;
+    font-size: 26px;
+    font-weight: 400;
+    font-family: Poppins,sans-serif!important;
+}
+
+.need-help-text span{
+    color: #fdbf0a;
+    text-decoration: underline;
+    cursor: pointer;
+    padding-left: 8px;
+}
+
+.need-help-icon{
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.why-watcho-heading{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    padding-top: 76px;
+    padding-bottom: 40px;
+    font-family: Poppins,sans-serif!important;
+}
+
+.why-watcho-icon{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+.icon-box{
+    width: 20%;
+    flex: 0 0 auto;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+.inner-icon{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.why-watcho-icon h4{
+    color: #fff6;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-family: Poppins,sans-serif!important;
+}
+
+.subscribe-plan{
+    width: 100%;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.subscribe-plan button{
+    border-radius: 10px;
+    background: #e42956;
+    width: 225px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 9px;
+    margin-top: 12px;
+    font-family: Poppins,sans-serif!important;
+}
